@@ -1,3 +1,77 @@
-.hero .container {
-  width: 100%
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap');
+
+body {
+  background-image: url('./assets/img/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-color:  hsl(257, 40%, 49%);
+  overflow-x: hidden;
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1440;
+  height: 100%;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+header img {
+  height: 3rem;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.message h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; 
+  color: white;
+}
+
+.message p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.message button {
+  font-family: 'Poppins', sans-serif;
+  color: hsl(257, 40%, 49%);
+  border-radius: 30px;
+  box-shadow: 3px 3px 5px #333;
+  padding: 10px 40px;
+}
+
+.socket {
+  color: white;
+}
+
+.socket a {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-image: url('./assets/img/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-color:  hsl(257, 40%, 49%);
+    overflow-x: hidden;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .message {
+    text-align: center;
+  }
 }
